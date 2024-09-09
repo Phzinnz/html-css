@@ -1,0 +1,35 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+
+:root{
+    --fontp:Arial,Helvetica,sans-serif;
+    --fontou:"Playwrite BE VLG", cursive;
+}
+body{
+    font-family: var(--fontp);
+    background-color:darkgrey;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:red;
+    height: 150 px;
+    text-align: center;
+    font-family: var(--fontou);
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black  ;
+    
+}
+aside{
+    background-color:rgba(0, 0, 0, 0.308)
+}
